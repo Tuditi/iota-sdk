@@ -8,6 +8,7 @@
         "run-example": "ts-node"
     },
     "dependencies": {
+        "@iota/crypto.js": "^1.8.6",
         "@iota/sdk": "file:..",
         "class-transformer": "^0.5.1",
         "dotenv": "^16.0.0",
