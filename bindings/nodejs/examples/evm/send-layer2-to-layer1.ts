@@ -229,7 +229,7 @@ async function createTxData(provider: Web3, address: string): Promise<TxData> {
         gasLimit: secondRun.gasLimit,
         to,
         value,
-        data: thirdRun.data,
+        data: secondRun.data,
     };
 }
 
